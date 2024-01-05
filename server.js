@@ -24,9 +24,9 @@ app.use('/api', movieRoutes);
 app.use(errorHandler);
 
 // comment this lines while check testcases
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });
 
 // uncomment this line while check test
-// module.exports = app;
+module.exports = app;
